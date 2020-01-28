@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"D:/Projects/Monogame3DVerticies/Verticies/Verticies/Content/Arial.spritefont","D:/Projects/Monogame3DVerticies/Verticies/Verticies/Content/bin/Windows/Content/Arial.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21521,0.1954853
+"D:/Projects/Monogame3DVerticies/Verticies/Verticies/Content/SpriteFont.spritefont","D:/Projects/Monogame3DVerticies/Verticies/Verticies/Content/bin/Windows/Content/SpriteFont.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21521,1.15013
+"D:/Projects/Monogame3DVerticies/Verticies/Verticies/Content/SpriteFont1.spritefont","D:/Projects/Monogame3DVerticies/Verticies/Verticies/Content/bin/Windows/Content/SpriteFont1.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21521,0.056849
