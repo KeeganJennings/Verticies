@@ -260,7 +260,7 @@ namespace Vertices
             foreach (EffectPass pass in effect.CurrentTechnique.Passes)
             {
                 pass.Apply();
-                graphics.GraphicsDevice.DrawPrimitives(PrimitiveType.TriangleList, 0, 12);
+                graphics.GraphicsDevice.DrawPrimitives(PrimitiveType.TriangleList, 0, 20);
                 //pass.End();
             }
             //effect.End();
@@ -272,49 +272,49 @@ namespace Vertices
         {
             /**Triangle 1*/
             VertexPositionColor[] vertices = new VertexPositionColor[43];
-            vertices[0] = new VertexPositionColor(new Vector3(-4, 4, 0), Color.White); //a
-            vertices[1] = new VertexPositionColor(new Vector3(-3, 0, 0), Color.White); //b
-            vertices[2] = new VertexPositionColor(new Vector3(-2, 3, 0), Color.White); //c
+            vertices[0] = new VertexPositionColor(new Vector3(-4, 4, 0), Color.Goldenrod); //a
+            vertices[1] = new VertexPositionColor(new Vector3(-3, 0, 0), Color.Goldenrod); //b
+            vertices[2] = new VertexPositionColor(new Vector3(-2, 3, 0), Color.Goldenrod); //c
 
             /**Triangle 2*/
             vertices[3] = vertices[1]; //b
             vertices[4] = vertices[2]; //c
-            vertices[5] = new VertexPositionColor(new Vector3(-2, 2, 0), Color.White); //n
+            vertices[5] = new VertexPositionColor(new Vector3(-2, 2, 0), Color.Goldenrod); //n
 
             /**Triangle 3*/
             vertices[6] = vertices[1]; //b 
             vertices[7] = vertices[5]; //n
-            vertices[8] = new VertexPositionColor(new Vector3(-1, 2, 0), Color.White); //d
+            vertices[8] = new VertexPositionColor(new Vector3(-1, 2, 0), Color.Goldenrod); //d
 
             /**Triangle 4*/
             vertices[9] = vertices[1]; //b
             vertices[10] = vertices[8]; //d
-            vertices[11] = new VertexPositionColor(new Vector3(0, 0, 0), Color.White); //e
+            vertices[11] = new VertexPositionColor(new Vector3(0, 0, 0), Color.Goldenrod); //e
 
             /**Triangle 5*/
             vertices[12] = vertices[8]; //d
             vertices[13] = vertices[11]; //e
-            vertices[14] = new VertexPositionColor(new Vector3(0, 2, 0), Color.White); //k
+            vertices[14] = new VertexPositionColor(new Vector3(0, 2, 0), Color.Goldenrod); //k
 
             /**Triangle 6*/
             vertices[15] = vertices[8]; //d
             vertices[16] = vertices[14]; //k
-            vertices[17] = new VertexPositionColor(new Vector3(-1, 3, 0), Color.White); //l
+            vertices[17] = new VertexPositionColor(new Vector3(-1, 3, 0), Color.Goldenrod); //l
 
             /**Triangle 7*/
             vertices[18] = vertices[17]; //l
             vertices[19] = vertices[14]; //k 
-            vertices[20] = new VertexPositionColor(new Vector3(0, 5, 0), Color.White); //j
+            vertices[20] = new VertexPositionColor(new Vector3(0, 5, 0), Color.Goldenrod); //j
 
             /**Triangle 8*/
             vertices[21] = vertices[20]; //j
             vertices[22] = vertices[14]; //k
-            vertices[23] = new VertexPositionColor(new Vector3(1, 3, 0), Color.White); //m
+            vertices[23] = new VertexPositionColor(new Vector3(1, 3, 0), Color.Goldenrod); //m
 
             /**Triangle 9*/
             vertices[24] = vertices[14]; //k
             vertices[25] = vertices[23]; //m
-            vertices[26] = new VertexPositionColor(new Vector3(1, 2, 0), Color.White); //f
+            vertices[26] = new VertexPositionColor(new Vector3(1, 2, 0), Color.Goldenrod); //f
 
             /**Triangle 10*/
             vertices[27] = vertices[14]; //k
@@ -324,22 +324,22 @@ namespace Vertices
             /**Triangle 11*/
             vertices[30] = vertices[11]; //e
             vertices[31] = vertices[26]; //f
-            vertices[32] = new VertexPositionColor(new Vector3(3, 0, 0), Color.Orange); //h
+            vertices[32] = new VertexPositionColor(new Vector3(3, 0, 0), Color.Goldenrod); //h
 
             /**Traingle 12*/
             vertices[33] = vertices[26]; //f
             vertices[34] = vertices[32]; //h
-            vertices[35] = new VertexPositionColor(new Vector3(2, 2, 0), Color.Blue); //o
+            vertices[35] = new VertexPositionColor(new Vector3(2, 2, 0), Color.Goldenrod); //o
 
             /**Triangle 13*/
             vertices[36] = vertices[35]; //o
             vertices[37] = vertices[32]; //h
-            vertices[38] = new VertexPositionColor(new Vector3(2, 3, 0), Color.Red); //g 
+            vertices[38] = new VertexPositionColor(new Vector3(2, 3, 0), Color.Goldenrod); //g 
 
             /**Triangle 14*/
             vertices[39] = vertices[38]; //g
             vertices[40] = vertices[32]; //h
-            vertices[41] = new VertexPositionColor(new Vector3(4, 4, 0), Color.Green); //i
+            vertices[41] = new VertexPositionColor(new Vector3(4, 4, 0), Color.Goldenrod); //i
 
 
             //vertexBuffer = new VertexBuffer(this.graphics.GraphicsDevice, 
